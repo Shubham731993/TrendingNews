@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+  android:id="@+id/toolbar"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@color/colorPrimary"
+  android:minHeight="?attr/actionBarSize"
+  android:theme="@style/Theme.News.Toolbar"
+  app:layout_scrollFlags="scroll|enterAlways"
+  app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+  <RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+      android:id="@+id/toolbar_custom_title_subtitle_combo_layout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="visible">
+
+      <news.com.firebasehackernews.views.HNTextView
+        android:id="@+id/toolbar_custom_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:tag="@string/regular"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+
+  </RelativeLayout>
+</android.support.v7.widget.Toolbar>

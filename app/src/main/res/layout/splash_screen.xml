@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <ImageView
+    android:id="@+id/trending_icon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:src="@drawable/ic_trending_up_black_48dp"/>
+
+  <news.com.firebasehackernews.views.HNTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/title"
+    android:layout_below="@+id/trending_icon"
+    android:layout_centerInParent="true"
+    android:tag="@string/regular"
+    android:text="Trending News"
+    android:textColor="@color/colorPrimary"
+    android:textSize="20sp"/>
+
+</RelativeLayout>

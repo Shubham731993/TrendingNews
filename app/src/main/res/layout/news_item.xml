@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/parent_layout"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/item_selector"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="16dp">
+
+  <RelativeLayout
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@+id/comment_layout"
+    android:layout_toStartOf="@+id/comment_layout">
+
+    <RelativeLayout
+      android:id="@+id/header_layout"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+      <news.com.firebasehackernews.views.HNTextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="@string/sans"
+        android:text="+444"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+      <ImageView
+        android:id="@+id/fire_score"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_toEndOf="@+id/score"
+        android:layout_toRightOf="@+id/score"/>
+
+
+      <news.com.firebasehackernews.views.HNTextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/trending_icon"
+        android:layout_toRightOf="@+id/trending_icon"
+        android:tag="@string/regular"
+        android:text="30 mintues ago"
+        android:textColor="@color/black"
+        android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+
+    <news.com.firebasehackernews.views.HNTextView
+      android:id="@+id/title"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/header_layout"
+      android:ellipsize="end"
+      android:maxLines="2"
+      android:tag="@string/regular"
+      android:text="An Open Letter to Intel"
+      android:textColor="@color/black"
+      android:textSize="20sp"/>
+
+
+    <news.com.firebasehackernews.views.HNTextView
+      android:id="@+id/url"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/title"
+      android:tag="@string/regular"
+      android:text="www.url.com"
+      android:textColor="@color/black"
+      android:textSize="15sp"/>
+
+  </RelativeLayout>
+
+  <RelativeLayout
+    android:id="@+id/comment_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:padding="10dp">
+
+
+    <ImageView
+      android:id="@+id/comments_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:srcCompat="@drawable/ic_comment"/>
+
+    <news.com.firebasehackernews.views.HNTextView
+      android:id="@+id/comment_value"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/comments_icon"
+      android:tag="@string/regular"
+      android:text="15"
+      android:textColor="@color/black"
+      android:textSize="15sp"/>
+
+  </RelativeLayout>
+
+
+</RelativeLayout>
