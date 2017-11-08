@@ -2,12 +2,12 @@
 
 A news app!
 
-Overview 
-Firebase Hacker Api : Public Hacker News data available in near real time.
-Works in Offline mode as well.
-Links to news.
-Sorted on basis of their score.
-Pull to refresh news.
+Overview <br />
+Firebase Hacker Api : Public Hacker News data available in near real time.<br />
+Works in Offline mode as well.<br />
+Links to news.<br />
+Sorted on basis of their score.<br />
+Pull to refresh news.<br />
 
 References:
 API Documentation: https://github.com/HackerNews/API
