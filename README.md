@@ -1,13 +1,13 @@
 # TrendingNews
 
-A news app!
+A news app based on Firebase Real time Hacker News Api !
 
 # Overview : <br />
-Firebase Hacker Api : Public Hacker News data available in near real time.<br />
-Works in Offline mode as well.<br />
-Links to news.<br />
-Sorted on basis of their score.<br />
-Pull to refresh news.<br />
+1. Firebase Hacker Api : Public Hacker News data available in near real time.<br />
+2. Works in Offline mode as well.<br />
+3. Links to news.<br />
+4. Sorted on basis of their score.<br />
+5. Pull to refresh news.<br />
 
 References:
 API Documentation: https://github.com/HackerNews/API
