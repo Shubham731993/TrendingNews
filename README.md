@@ -2,7 +2,7 @@
 
 A news app!
 
-Overview <br />
+# Overview : <br />
 Firebase Hacker Api : Public Hacker News data available in near real time.<br />
 Works in Offline mode as well.<br />
 Links to news.<br />
