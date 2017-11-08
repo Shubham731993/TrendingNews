@@ -13,6 +13,8 @@ References:
 API Documentation: https://github.com/HackerNews/API
 
 
+Youtube Demo Video :
+https://youtu.be/-T_ZWqXUKjE
 
 
 Screenshots :
@@ -27,6 +29,3 @@ Screenshots :
 
 
 
-
-Youtube Demo Video :
-https://youtu.be/-T_ZWqXUKjE
