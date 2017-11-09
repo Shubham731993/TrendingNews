@@ -33,6 +33,7 @@ import news.com.firebasehackernews.model.NewsModel;
 import rx.Observer;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
+import rx.schedulers.Schedulers;
 
 /**
  *
@@ -161,6 +162,7 @@ public class HackerNewsActivity extends AppCompatActivity implements SwipeRefres
       ProviderWrapper provider = InitializeDependencies.getProviderWrapper();
       subscription = provider
           .getStories()
+          .subscribeOn(Schedulers.io())
           .observeOn(AndroidSchedulers.mainThread())
           .subscribe(new Observer<Integer>() {
             @Override
