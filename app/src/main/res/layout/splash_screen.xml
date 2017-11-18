@@ -12,14 +12,27 @@
     android:src="@drawable/ic_trending_up_black_48dp"/>
 
   <news.com.firebasehackernews.views.HNTextView
+    android:id="@+id/title"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:id="@+id/title"
     android:layout_below="@+id/trending_icon"
     android:layout_centerInParent="true"
+    android:layout_marginTop="5dp"
     android:tag="@string/regular"
-    android:text="Trending News"
+    android:text="FireNews"
     android:textColor="@color/colorPrimary"
     android:textSize="20sp"/>
+
+  <news.com.firebasehackernews.views.HNTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/title"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="5dp"
+    android:tag="@string/regular"
+    android:text=" A firebase news app"
+    android:textColor="@color/grey"
+    android:textSize="14sp"/>
+
 
 </RelativeLayout>

@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Trending News</string>
+  <string name="app_name">FireNews</string>
   <string name="regular">regular</string>
   <string name="sans">sans</string>
   <string name="news_score">+ %d</string>
