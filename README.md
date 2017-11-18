@@ -12,10 +12,15 @@ A news app based on Firebase Real time Hacker News Api !
 References:
 API Documentation: https://github.com/HackerNews/API
 
+Play Store Link :
+<p align="center">
+  <a href="https://play.google.com/store/apps/details?id=news.com.firebasehackernews">
+    <img src="/app/src/main/assets/screenshots/google.png" width="400" height ="150"/>
+  </a>
+</p>
 
 Youtube Demo Video :
 https://youtu.be/-T_ZWqXUKjE
-
 
 Screenshots :
 
